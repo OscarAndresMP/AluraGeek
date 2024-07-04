@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecera">
+        <img src="img/header.png" alt="logo">
+    </header>
+
+    <main class="contenedor">
+
+        <form action="" data-formulario>
+
+            <div class="tituloForm">
+                <h1>AGREGAR</h1>
+                <h1>PRODUCTO:</h1>
+            </div>
+
+            <div class="entradas">
+                
+                <input type="text" placeholder=" nombre..." id="nombre" class="inputEntrada" required data-nombre>
+                <input type="text" placeholder=" precio..." id="precio" class="inputEntrada" required data-precio>
+                <input type="text" placeholder=" imagen..." id="imagen" class="inputEntrada" required data-image>
+
+            </div>
+
+            <div class="btn">
+                <button type="submit" class="btnn">ENVIAR</button>
+                <button type="reset" class="btnnn">LIMPIAR</button>
+            </div>
+        </form>
+
+        
+        <div class="products" data-lista>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <img src="img/header.png" alt="logo">
+        </div>
+    </footer>
+<script src="./js/mostrarProductos.js" type="module"></script>    
+<script src="./js/crearProducto.js" type="module"></script>
+</body>
+</html>

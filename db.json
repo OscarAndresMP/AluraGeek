@@ -1,0 +1,22 @@
+{
+  "Productos": [
+    {
+      "id": "6ea4",
+      "descripcion": "batman",
+      "precio": "100",
+      "image": "img/batman.jpg"
+    },
+    {
+      "id": "4d19",
+      "descripcion": "conejo tejido",
+      "precio": "230",
+      "image": "https://www.lovelycraft.com/wp-content/uploads/2022/05/Crochet-Bunny-Moo-Amigurumi-PDF-Pattern-2-1-380x380.jpg"
+    },
+    {
+      "id": "f427",
+      "descripcion": "muñeco tejido",
+      "precio": "126",
+      "image": "https://www.lovelycraft.com/wp-content/uploads/2022/05/Amigurumi-Luffy-Munecas-PDF-Patron-Gratis.jpg"
+    }
+  ]
+}
